@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{222:function(e,t,n){"use strict";n.r(t);var a=n(0),l=n.n(a),o=n(65),c=n(218),r=n(217);t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(r.a,{title:"The University Club of Boston"}),l.a.createElement("h1",null,"The University Club of Boston"),l.a.createElement("p",null,"Welcome to page 2"),l.a.createElement(o.Link,{to:"/"},"Take me back!"))}}}]);
+//# sourceMappingURL=component---src-pages-uclubboston-js-1eede65dedca64301218.js.map
