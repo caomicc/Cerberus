@@ -9,18 +9,17 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faHeart, faCannabis, faMagic  } from '@fortawesome/free-solid-svg-icons'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faHeart, faCannabis, faMagic  } from '@fortawesome/free-solid-svg-icons'
 
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import Header from "./header"
+// import Header from "./header"
 import Emoji from "./emoji"
 import "./layout.css"
 import "./custom.scss"
 
-library.add(faHeart, faCannabis, faMagic)
+// library.add(faHeart, faCannabis, faMagic)
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -45,7 +44,8 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()} by yours truly. <br/>
+          Built with
           {` `}
           <Emoji
           symbol="&#x1F49C;"
@@ -56,7 +56,7 @@ const Layout = ({ children }) => {
           label="beer"
           />, and &nbsp;
           <Emoji
-          symbol={'\u2728'}
+          symbol="&#x2728;"
           label="magic"
           />.
         </footer>
