@@ -5,14 +5,15 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---src-pages-404-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/404.js"))),
-  "component---src-pages-addison-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/addison.js"))),
-  "component---src-pages-colleton-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/colleton.js"))),
-  "component---src-pages-ibis-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/ibis.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/index.js"))),
-  "component---src-pages-manchester-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/manchester.js"))),
-  "component---src-pages-resume-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/resume.js"))),
-  "component---src-pages-uclubboston-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/uclubboston.js"))),
-  "component---src-pages-waverley-js": hot(preferDefault(require("/Users/COmiccioli/Documents/git/cerberus/src/pages/waverley.js")))
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/.cache/dev-404-page.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/404.js"))),
+  "component---src-pages-addison-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/addison.js"))),
+  "component---src-pages-colleton-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/colleton.js"))),
+  "component---src-pages-ibis-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/ibis.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/index.js"))),
+  "component---src-pages-manchester-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/manchester.js"))),
+  "component---src-pages-resume-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/resume.js"))),
+  "component---src-pages-uclubboston-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/uclubboston.js"))),
+  "component---src-pages-waverley-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/waverley.js")))
 }
 

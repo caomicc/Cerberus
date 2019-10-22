@@ -22,11 +22,18 @@ const Image = () => {
             ...GatsbyImageSharpFluid
           }
         }
+      },
+      placeholderImage2: file(relativePath: { eq: "waverley.png" }) {
+        childImageSharp {
+          fluid{
+            ...GatsbyImageSharpFluid
+          }
+        }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage2.childImageSharp.fluid} />
 }
 
 export default Image

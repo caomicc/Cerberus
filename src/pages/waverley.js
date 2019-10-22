@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Image from "../components/image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -25,6 +26,8 @@ const SecondPage = () => (
     </div>
     <h2>Brief</h2>
     <p>Coming Soon...</p>
+
+    <Image />
 
     <h2>Role</h2>
     <p>My role during this project included providing design critique, developing website from sketch mockups && custom built templates, solving QA issues, implementing into propriatary CMS and creating an interactive expierience across multiple devices. This site had a total of six custom pages and an advanced private side template.
