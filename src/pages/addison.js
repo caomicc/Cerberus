@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import portfolioImgURL from "../images/waverley.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -31,11 +31,10 @@ const SecondPage = () => (
     <p>Coming Soon...</p>
 
     <h2>Role</h2>
-    <p>My role during this project included providing design critique, developing website from sketch mockups && custom built templates, solving QA issues, implementing into propriatary CMS and creating an interactive expierience across multiple devices.
-    </p>
+    <p>Coming Soon...</p>
 
     <h2>Developer Tools</h2>
-    <p>During this project, we used git version control through BitBucket. Mockups were created with sketch and site was developed using Atom, CSS/SCSS, JavaScript, jQuery, and a propriatary CMS. The framework this site used is a custom version of Bootstrap that is used across all MembersFirst responsive sites.</p>
+    <p>Coming Soon...</p>
 
     <Link to="/">Home</Link>
   </Layout>
