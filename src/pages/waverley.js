@@ -16,7 +16,7 @@ const SecondPage = () => (
             <span class="title_attr">role</span> lead developer
           </p>
           <p>
-            <span class="title_attr">url</span> <a href="https://www.waverley.cc/" target="_blank" title="Link to Waverley Country Club">https://www.waverley.cc/</a>
+            <span class="title_attr">url</span> <a href="https://www.waverley.cc/" target="_blank" rel="noopener noreferrer" title="Link to Waverley Country Club">https://www.waverley.cc/</a>
           </p>
           <p>
             <span class="title_attr">developer tools</span> Git, Sketch, Atom, Bootstrap
@@ -27,7 +27,7 @@ const SecondPage = () => (
     <h2>Brief</h2>
     <p>Coming Soon...</p>
 
-    <Image />
+    <Image/>
 
     <h2>Role</h2>
     <p>My role during this project included providing design critique, developing website from sketch mockups && custom built templates, solving QA issues, implementing into propriatary CMS and creating an interactive expierience across multiple devices. This site had a total of six custom pages and an advanced private side template.

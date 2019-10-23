@@ -15,13 +15,13 @@ const SecondPage = () => (
             <span class="title_attr">role</span> lead developer
           </p>
           <p>
-            <span class="title_attr">url</span> <a href="https://www.addisonreserve.cc/" target="_blank" title="Link to Addison Reserve Country Club">https://www.addisonreserve.cc/</a>
+            <span class="title_attr">url</span> <a href="https://www.addisonreserve.cc/" rel="noopener noreferrer" target="_blank" title="Link to Addison Reserve Country Club">https://www.addisonreserve.cc/</a>
           </p>
           <p>
             <span class="title_attr">developer tools</span> Git, Sketch, Atom, Bootstrap
           </p>
           <p>
-            <span class="title_attr">award</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770294&cat=1" target="_blank">IMA Best in Class - Lifestyle <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span>
+            <span class="title_attr">award</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770294&cat=1" target="_blank" rel="noopener noreferrer">IMA Best in Class - Lifestyle <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span>
           </a>
           </p>
         </div>

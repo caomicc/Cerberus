@@ -15,7 +15,7 @@ const SecondPage = () => (
             <span class="title_attr">role</span> lead developer
           </p>
           <p>
-            <span class="title_attr">url</span> <a href="https://www.uclub.org/" target="_blank" title="Link to The University Club of Boston">https://www.uclub.org/</a>
+            <span class="title_attr">url</span> <a href="https://www.uclub.org/" target="_blank" rel="noopener noreferrer" title="Link to The University Club of Boston">https://www.uclub.org/</a>
           </p>
           <p>
             <span class="title_attr">developer tools</span> Git, Sketch, Atom, Bootstrap
