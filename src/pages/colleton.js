@@ -23,6 +23,9 @@ const SecondPage = () => (
           <p>
             <span class="title_attr">award</span> <a href="http://interactivemediaawards.com/winners/certificate.asp?param=767816&cat=1" target="_blank" rel="noopener noreferrer">IMA Best in Class - Lifestyle <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a>
           </p>
+          <p>
+            <span class="title_attr">designed by</span> <a href="https://www.linkedin.com/in/juliealdredcreative/" target="_blank" rel="noopener noreferrer" title="Link to Julie Aldred's LinkedIn">Julie Aldred</a> @ MembersFirst
+          </p>
         </div>
       </div>
     </div>
@@ -38,7 +41,7 @@ const SecondPage = () => (
     <h2>Developer Tools</h2>
     <p>During this project, we used git version control through BitBucket. Mockups were created with sketch and site was developed using Atom, CSS/SCSS, JavaScript, jQuery, and a propriatary CMS. The framework this site used is a custom version of Bootstrap that is used across all MembersFirst responsive sites.</p>
 
-    <Link to="/">Home</Link>
+    <Link to="/" className="home-link">Home</Link>
   </Layout>
 )
 

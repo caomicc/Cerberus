@@ -24,6 +24,9 @@ const SecondPage = () => (
             <span class="title_attr">award</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770308&cat=1" rel="noopener noreferrer" target="_blank">IMA Best in Class - Lifestyle<i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span>
           </a>
           </p>
+          <p>
+            <span class="title_attr">designed by</span> <a href="https://www.linkedin.com/in/laurenvachon" target="_blank" rel="noopener noreferrer" title="Link to Lauren Vachon's LinkedIn">Lauren Vachon</a> @ MembersFirst
+          </p>
         </div>
       </div>
     </div>
@@ -41,7 +44,7 @@ Site used multiple plugins including ScrollMagic and fullpage.js.</p>
     <h2>Developer Tools</h2>
     <p>During this project, we used git version control through BitBucket. Mockups were created with sketch and site was developed using Atom, CSS/SCSS, JavaScript, jQuery, and a propriatary CMS. The framework this site used is a custom version of Bootstrap that is used across all MembersFirst responsive sites.</p>
 
-    <Link to="/">Home</Link>
+    <Link to="/" className="home-link">Home</Link>
   </Layout>
 )
 

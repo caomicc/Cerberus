@@ -24,6 +24,9 @@ const SecondPage = () => (
             <span class="title_attr">award</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770294&cat=1" target="_blank" rel="noopener noreferrer">IMA Best in Class - Lifestyle <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span>
           </a>
           </p>
+          <p>
+            <span class="title_attr">designed by</span> <a href="https://www.linkedin.com/in/hannahjgorman/" target="_blank" rel="noopener noreferrer" title="Link to Hannah Gorman's LinkedIn">Hannah Gorman</a> @ MembersFirst
+          </p>
         </div>
       </div>
     </div>
@@ -36,7 +39,7 @@ const SecondPage = () => (
     <h2>Developer Tools</h2>
     <p>Coming Soon...</p>
 
-    <Link to="/">Home</Link>
+    <Link to="/" className="home-link">Home</Link>
   </Layout>
 )
 

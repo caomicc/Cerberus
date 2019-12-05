@@ -21,6 +21,9 @@ const SecondPage = () => (
           <p>
             <span class="title_attr">developer tools</span> Git, Sketch, Atom, Bootstrap
           </p>
+          <p>
+            <span class="title_attr">designed by</span> <a href="https://www.linkedin.com/in/hannahjgorman/" target="_blank" rel="noopener noreferrer" title="Link to Hannah Gorman's LinkedIn">Hannah Gorman</a> @ MembersFirst
+          </p>
         </div>
       </div>
     </div>
@@ -35,7 +38,7 @@ const SecondPage = () => (
     <h2>Developer Tools</h2>
     <p>Coming Soon...</p>
 
-    <Link to="/">Home</Link>
+    <Link to="/" className="home-link">Home</Link>
   </Layout>
 )
 

@@ -10,7 +10,7 @@ const SecondPage = () => (
     <h1>Curriculum Vitae</h1>
 
     <h2>Skills</h2>
-    <p>HTML, CSS/SCSS, JavaScript, jQuery, Bootstrap 3 & 4, Git, Sketch, Photoshop, Illustrator, Node, and Gatsby.</p>
+    <p>HTML, CSS/SCSS, JavaScript, jQuery, Bootstrap 3 & 4, Git/Version Control, JIRA, Sketch, Photoshop, Illustrator, and Node.</p>
 
     <h2>Relevant Experience</h2>
     <div class="entry">
@@ -60,7 +60,7 @@ const SecondPage = () => (
          <h3>Web Developer & Administrative Intern</h3>
          <div class="indent">
            <p><span class="title_attr">employer</span> <a href="http://mwrta.com/" target="_blank" rel="noopener noreferrer">Metrowest Regional Transit Authority <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
-           <p><span class="title_attr">description</span> designed a bus tracking interface used by the Metrowest region, developed and designed a high traffic website, and graphic design</p>
+           <p><span class="title_attr">description</span> designed a bus tracking interface used by the Metrowest region, developed and designed a high traffic website, and provided graphic design assistance</p>
            <p><span class="title_attr">duration</span> Jun 2014 – Sep 2015</p>
            <p><span class="title_attr">location</span> Framingham, Massachusetts</p>
          </div>
@@ -71,7 +71,7 @@ const SecondPage = () => (
          <h3>Web Developer & Designer</h3>
          <div class="indent">
            <p><span class="title_attr">employer</span> <a href="https://downtownframinghaminc.org/" target="_blank" rel="noopener noreferrer">Framingham Downtown Renaissance <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
-           <p><span class="title_attr">description</span> used squarespace developer mode to create an easy to use website for a community involvment</p>
+           <p><span class="title_attr">description</span> used squarespace developer mode to create an easy to use website for a community involvment & re-development</p>
            <p><span class="title_attr">duration</span> Jan 2014 – Jun 2014</p>
            <p><span class="title_attr">location</span> Framingham, Massachusetts</p>
          </div>
@@ -107,7 +107,7 @@ const SecondPage = () => (
         <div class="indent">
           <p><span class="title_attr">institution</span> Framingham State University</p>
           <p><span class="title_attr">years attended</span> 2012 – 2016</p>
-          <p><span class="title_attr">research study</span> computer and information security through password protection, use of biometrics, and physical keys in terms of cost and ease of use.</p>
+          <p><span class="title_attr">research study</span> computer and information security through password protection, use of biometrics, and physical keys in terms of cost over a set period of time and ease of use.</p>
         </div>
       </div>
     </div>
@@ -122,7 +122,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <Link to="/">Home</Link>
+    <Link to="/" className="home-link">Home</Link>
   </Layout>
 )
 
