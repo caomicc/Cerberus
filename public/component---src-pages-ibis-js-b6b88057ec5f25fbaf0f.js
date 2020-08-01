@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{220:function(e,t,n){"use strict";n.r(t);var a=n(0),l=n.n(a),o=n(65),u=n(217),c=n(216);t.default=function(){return l.a.createElement(u.a,null,l.a.createElement(c.a,{title:"Country Club of Ibis"}),l.a.createElement("h1",null,"Country Club of Ibis"),l.a.createElement("p",null,"Welcome to page 2"),l.a.createElement(o.Link,{to:"/"},"Take me back!"))}}}]);
-//# sourceMappingURL=component---src-pages-ibis-js-b6b88057ec5f25fbaf0f.js.map

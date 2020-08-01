@@ -10,7 +10,7 @@ const SecondPage = () => (
     <h1>Curriculum Vitae</h1>
 
     <h2>Skills</h2>
-    <p>HTML, CSS/SCSS, JavaScript, jQuery, Bootstrap 3 & 4, Git/Version Control, JIRA, Sketch, Photoshop, Illustrator, and Node.</p>
+      <p>HTML, CSS/SCSS, JavaScript, jQuery, Bootstrap 3 & 4, Git, JIRA, Sketch, Photoshop, Illustrator, Node, UI/UX, Graphic Design</p>
 
     <h2>Relevant Experience</h2>
     <div class="entry">
@@ -21,7 +21,7 @@ const SecondPage = () => (
             <span class="title_attr">employer</span> <a href="https://membersfirst.com" target="_blank" rel="noopener noreferrer">MembersFirst <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a>
           </p>
           <p>
-          <span class="title_attr">description</span> develop websites from mockups, creating efficiencies within our internal process to decrease amount of time needed for site development and productivity, maintenance of CDN which covers over 340 websites, and solving tickets through the JIRA bug tracking software
+          <span class="title_attr">description</span> currently developing websites from team designed mockups, creating efficiencies within our internal process to decrease amount of time needed for site development and productivity, maintaining CDN which covers over 340 websites, solving tickets through the JIRA bug tracking software, creating various products and offerings including digital signs, landing pages, and dining module templates, while also actively creating documentation for teammates
           </p>
           <p>
           <span class="title_attr">duration</span> Jan 2018 – present
@@ -122,6 +122,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
+    <Link to="/printable-resume/" className="home-link">Printable Resume</Link><br/>
     <Link to="/" className="home-link">Home</Link>
   </Layout>
 )

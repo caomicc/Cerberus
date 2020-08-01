@@ -48,12 +48,12 @@ const Layout = ({ children }) => {
           Built with
           {` `}
           <Emoji
-          symbol="&#x1F49C;"
+          symbol="&#x1F5A4;"
           label="love"
           />,
           <Emoji
-          symbol="&#x1F37A;"
-          label="beer"
+          symbol="&#x1F34D;"
+          label="weed"
           />, and &nbsp;
           <Emoji
           symbol="&#x2728;"

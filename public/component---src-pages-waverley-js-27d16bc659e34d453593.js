@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{223:function(e,t,a){"use strict";a.r(t);var n=a(0),l=a.n(n),r=a(65),u=a(218),c=a(217);t.default=function(){return l.a.createElement(u.a,null,l.a.createElement(c.a,{title:"Waverley Country Club"}),l.a.createElement("h1",null,"Waverley Country Club"),l.a.createElement("p",null,"Welcome to page 2"),l.a.createElement(r.Link,{to:"/"},"Take me back!"))}}}]);
-//# sourceMappingURL=component---src-pages-waverley-js-27d16bc659e34d453593.js.map
