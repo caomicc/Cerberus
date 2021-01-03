@@ -9,8 +9,11 @@ const SecondPage = () => (
     <SEO title="Curriculum Vitae" />
     <h1>Curriculum Vitae</h1>
 
+    <p class="mb-0">Front-End Devloper | caomicc@gmail.com </p>
+    <p>Holliston, MA | www.caomicc.com</p>
+
     <h2>Skills</h2>
-      <p>HTML, CSS/SCSS, JavaScript, jQuery, Bootstrap 3 & 4, Git, JIRA, Sketch, Photoshop, Illustrator, Node, UI/UX, Graphic Design</p>
+    <p>HTML, CSS, SCSS, JavaScript, jQuery, Node.JS, AJAX, Bootstrap, Git, WCAG, JIRA, Sketch, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership, A/B Testing</p>
 
     <h2>Relevant Experience</h2>
     <div class="entry">
@@ -122,6 +125,98 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
+
+
+    <h2>Honors & Awards</h2>
+    <div class="entry">
+      <div class="job">
+        <h3>Best In Class (Lifestyle) - Addison Reserve Country Club</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2019</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770294&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Best In Class (Lifestyle) - The Club at Ibis</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2019</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770308&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Best In Class (Lifestyle) - The Club at Renaissance</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2019</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770315&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Outstanding Achievement (Lifestyle) - Steel Club</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2019</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=770322&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Best In Class (Lifestyle) - Colleton River Club</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2018</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=767816&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Best In Class (Lifestyle) - Manchester Country Club</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2018</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=767809&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Best In Class (Lifestyle) - The Silverleaf Club</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2018</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=767830&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Outstanding Achievement (Restaurant) - Local 02045</h3>
+        <div class="indent">
+          <p><span class="title_attr">issue date</span> Aug 2018</p>
+          <p><span class="title_attr">issuer</span> Interactive Media Awards</p>
+          <p><span class="title_attr">certificate</span> <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=767823&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
+        </div>
+      </div>
+    </div>
+
+
     <Link to="/printable-resume/" className="home-link">Printable Resume</Link><br/>
     <Link to="/" className="home-link">Home</Link>
   </Layout>
