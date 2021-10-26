@@ -101,7 +101,7 @@ const SecondPage = () => (
       <div class="job">
         <h3>Club at Ibis</h3>
         <div class="indent">
-          <p><span class="title_attr">url</span> <a href="https://www.clubatibis.com/" target="_blank" rel="noopener noreferrer"> https://www.addisonreserve.cc/</a></p>
+          <p><span class="title_attr">url</span> <a href="https://www.clubatibis.com/" target="_blank" rel="noopener noreferrer"> https://www.clubatibis.com/</a></p>
           <p><span class="title_attr">project date</span> Jan 2018</p>
           <p><span class="title_attr">role</span> lead developer</p>
         </div>
@@ -121,20 +121,9 @@ const SecondPage = () => (
 
     <div class="entry">
       <div class="job">
-        <h3>Colleton River Club</h3>
-        <div class="indent">
-          <p><span class="title_attr">url</span> <a href="https://www.colletonriverclub.com/" target="_blank" rel="noopener noreferrer"> https://www.addisonreserve.cc/</a></p>
-          <p><span class="title_attr">project date</span> Aug 2017</p>
-          <p><span class="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="entry">
-      <div class="job">
         <h3>Manchester Country Club</h3>
         <div class="indent">
-          <p><span class="title_attr">url</span> <a href="https://www.manchestercountryclub.com/" target="_blank" rel="noopener noreferrer"> https://www.addisonreserve.cc/</a></p>
+          <p><span class="title_attr">url</span> <a href="https://www.manchestercountryclub.com/" target="_blank" rel="noopener noreferrer"> https://www.manchestercountryclub.com/</a></p>
           <p><span class="title_attr">project date</span> June 2017</p>
           <p><span class="title_attr">role</span> lead developer</p>
         </div>
