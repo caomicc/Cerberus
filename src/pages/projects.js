@@ -101,7 +101,7 @@ const SecondPage = () => (
       <div class="job">
         <h3>Club at Ibis</h3>
         <div class="indent">
-          <p><span class="title_attr">url</span> <a href="https://www.addisonreserve.cc/" target="_blank" rel="noopener noreferrer"> https://www.addisonreserve.cc/</a></p>
+          <p><span class="title_attr">url</span> <a href="https://www.clubatibis.com/" target="_blank" rel="noopener noreferrer"> https://www.addisonreserve.cc/</a></p>
           <p><span class="title_attr">project date</span> Jan 2018</p>
           <p><span class="title_attr">role</span> lead developer</p>
         </div>

@@ -14,30 +14,20 @@ const IndexPage = () => (
       symbol="&#x1F44B;"
       label="wave"
       /> <br/>
-      My name is Cameron && I'm a front-end developer from Holliston, MA.
+      My name is Cameron && I'm a web developer from Hudson, MA.
     </p>
     <p>
-      Currently I write code for <a href="https://www.workhuman.com" target="_blank" rel="noopener noreferrer">WorkHuman</a> as a front-end developer.
-      I'm experienced in HTML, CSS/SCSS, Node.js, Sketch, JavaScript, with a focus on accessibility.
-      Feel free to <a href="mailto:caomicc@gmail.com">shoot me an email</a>.
+      Currently I write code for <a href="https://www.workhuman.com" target="_blank" rel="noopener noreferrer">Workhuman</a> as a front-end developer.
+      I'm experienced in HTML, CSS/SCSS, twig, Node.js, Sketch, XD, JavaScript, and Wordpress with a overall focus on accessibility and WCAG.
+      Feel free to <a href="mailto:caomicc@gmail.com">shoot me an email</a> if you're looking for help on a project.
     </p>
     <p>
       Often, I am described as a hard working, fast learning, and <em>"pixel perfect"</em>.
       I strive to make the integration between design and code fluid and seamless, while also keeping all audiences in mind.
     </p>
     <p>
-      When I'm not working, I'm often hanging out with my pet chinchilla Simon, playing the newest Animal Crossing, binging something tv show (currently: <i>American Dad!</i>), doing some home project.
+      When I'm not working, I'm often hanging out with my pets, playing Animal Crossing, binging something tv show (currently: <i>American Dad!</i>), or doing some home project.
     </p>
-    {
-    // <h2>Recent Projects</h2>
-    // <Link to="/waverley/">Waverley Country Club</Link><br/>
-    // <Link to="/uclubboston/">The University Club of Boston</Link><br/>
-    // <Link to="/addison/">Addison Reserve Country Club</Link><br/>
-    // <Link to="/ibis/">The Club at Ibis</Link><br/>
-    // <Link to="/colleton/">Colleton River Club</Link><br/>
-    // <Link to="/manchester/">Manchester Country Club</Link><br/>
-    }
-
     <h2>Links</h2>
     <Link to="/projects/">Recent Projects</Link><br/>
     <Link to="/resume/">Curriculum Vitae</Link><br/>
