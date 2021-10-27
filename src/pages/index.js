@@ -8,25 +8,25 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Cameron Omiccioli</h1>
+    <h1>Cameron Omiccioli-Akhmetova</h1>
     <p className="lead">
-      Hi There! <Emoji
-      symbol="&#x1F44B;"
+      Hi there! <Emoji
+        symbol="👋🏻"
       label="wave"
       /> <br/>
-      My name is Cameron && I'm a web developer from Hudson, MA.
+      My name is Cameron && I'm a front end web developer from Hudson, MA.
     </p>
     <p>
-      Currently I write code for <a href="https://www.workhuman.com" target="_blank" rel="noopener noreferrer">Workhuman</a> as a front-end developer.
+      Currently I write code and make magic happen for <a href="https://www.workhuman.com" target="_blank" rel="noopener noreferrer">Workhuman</a> as a front end developer.
       I'm experienced in HTML, CSS/SCSS, twig, Node.js, Sketch, XD, JavaScript, and Wordpress with a overall focus on accessibility and WCAG.
       Feel free to <a href="mailto:caomicc@gmail.com">shoot me an email</a> if you're looking for help on a project.
     </p>
     <p>
       Often, I am described as a hard working, fast learning, and <em>"pixel perfect"</em>.
-      I strive to make the integration between design and code fluid and seamless, while also keeping all audiences in mind.
+      I strive to make the integration between design and code fluid and seamless, including making sites cohesive in code and design while also keeping all audiences in mind.
     </p>
     <p>
-      When I'm not working, I'm often hanging out with my pets, playing Animal Crossing, binging something tv show (currently: <i>American Dad!</i>), or doing some home project.
+      When I'm not working, I'm often hanging out with my pets, playing Animal Crossing, binging something tv show (currently: <i>American Dad!</i>), or doing some home project with my husband.
     </p>
     <h2>Links</h2>
     <Link to="/projects/">Recent Projects</Link><br/>

@@ -9,7 +9,7 @@ const SecondPage = () => (
     <SEO title="Curriculum Vitae" />
     <h1>Cameron Omiccioli</h1>
 
-    <p>Front-End Devloper | caomicc@gmail.com | Holliston, MA | www.caomicc.com</p>
+    <p>Front End Devloper | caomicc@gmail.com | Hudson, MA | www.caomicc.com</p>
 
     <h2>About</h2>
 
@@ -22,7 +22,8 @@ const SecondPage = () => (
 
 
     <h2>Skills</h2>
-    <p>HTML, CSS, SCSS, JavaScript, jQuery, Bootstrap, Git, JIRA, Sketch, Abstract, Adobe Creative Suite, Node.JS, UI/UX, Graphic Design, Accessibility, Technical Writing, </p>
+    <p>HTML, CSS, SCSS, JavaScript, jQuery, Node.JS, AJAX, Bootstrap, Twig, Wordpress, Git, WCAG, JIRA, Sketch, XD, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership, A/B Testing</p>
+
 
     <h2>Relevant Experience</h2>
     <div class="entry">

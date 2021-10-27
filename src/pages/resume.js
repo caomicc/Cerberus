@@ -3,19 +3,28 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Emoji from "../components/emoji"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Curriculum Vitae" />
-    <h1>Curriculum Vitae</h1>
+    <SEO title="Curriculum Vitae for Cameron Omiccioli-Akhmetova" />
+    <h1>Cameron Omiccioli-Akhmetova</h1>
 
-    <p class="mb-0">Front-End Devloper | caomicc@gmail.com </p>
-    <p>Holliston, MA | www.caomicc.com</p>
+    <p class="mb-0">Front End Devloper | caomicc@gmail.com </p>
+    <p>Hudson, MA | www.caomicc.com</p>
 
-    <h2>Skills</h2>
-    <p>HTML, CSS, SCSS, JavaScript, jQuery, Node.JS, AJAX, Bootstrap, Git, WCAG, JIRA, Sketch, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership, A/B Testing</p>
+    <h2> 
+    <Emoji
+      symbol="👩🏻‍💻"
+      label="skills"
+    />
+      &nbsp;Skills</h2>
+    <p>HTML, CSS, SCSS, JavaScript, jQuery, Node.JS, AJAX, Bootstrap, Twig, Wordpress, Git, WCAG, JIRA, Sketch, XD, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership, A/B Testing</p>
 
-    <h2>Relevant Experience</h2>
+    <h2><Emoji
+      symbol="🖥"
+      label="experience"
+    /> &nbsp;Experience</h2>
     <div class="entry">
       <div class="job">
         <h3>Front-End Web Developer</h3>
@@ -103,7 +112,10 @@ const SecondPage = () => (
        </div>
      </div>
 
-    <h2>Education</h2>
+    <h2> <Emoji
+      symbol="🎓"
+      label="education"
+    /> Education</h2>
     <div class="entry">
       <div class="job">
         <h3>BS Computer Science and Information System</h3>
@@ -127,7 +139,10 @@ const SecondPage = () => (
     </div>
 
 
-    <h2>Honors & Awards</h2>
+    <h2><Emoji
+      symbol="🏆"
+      label="magic"
+    /> Honors & Awards</h2>
     <div class="entry">
       <div class="job">
         <h3>Best In Class (Lifestyle) - Addison Reserve Country Club</h3>
