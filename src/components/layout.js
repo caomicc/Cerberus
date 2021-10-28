@@ -41,9 +41,8 @@ const Layout = ({ children }) => {
             <label className="label-toggle" tabIndex="0">
               <input
                 type="checkbox"
-                onChange={e => toggleTheme(e.target.checked && theme !== 'dark' ? 'dark' : 'light')}
+                onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
                 checked={theme === 'dark'}
-                
               />{' '}
               <div class="planet">
               </div>

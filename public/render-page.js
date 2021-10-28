@@ -35317,7 +35317,7 @@ const Layout = ({
     tabIndex: "0"
   }, Glamor.createElement("input", {
     type: "checkbox",
-    onChange: e => toggleTheme(e.target.checked && theme !== 'dark' ? 'dark' : 'light'),
+    onChange: e => toggleTheme(e.target.checked ? 'dark' : 'light'),
     checked: theme === 'dark'
   }), ' ', Glamor.createElement("div", {
     class: "planet"
