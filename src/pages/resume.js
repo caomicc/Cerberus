@@ -19,12 +19,33 @@ const SecondPage = () => (
       label="skills"
     />
       &nbsp;Skills</h2>
-    <p>HTML, CSS, SCSS, JavaScript, jQuery, Node.JS, AJAX, Bootstrap, Twig, Wordpress, Git, WCAG, JIRA, Sketch, XD, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership, A/B Testing</p>
+    <p>HTML, CSS, SCSS, JavaScript, jQuery, Node.JS, AJAX, Bootstrap, Twig, PHP, Wordpress, Git, WCAG, JIRA, Sketch, XD, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership, A/B Testing</p>
 
     <h2><Emoji
       symbol="🖥"
       label="experience"
     /> &nbsp;Experience</h2>
+
+    <div class="entry">
+      <div class="job">
+        <h3>Front-End Web Developer</h3>
+        <div class="indent">
+          <p>
+            <span class="title_attr">employer</span> <a href="https://workhuman.com" target="_blank" rel="noopener noreferrer">Workhuman <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a>
+          </p>
+          <p>
+            <span class="title_attr">description</span> currently mantaining and developing our wordpress website, actively looking for ways to learn, supporting my team by providing feedback to designs and flexing my own design muscle where I can, being utilized as an accessibility resource, and being a total powerhouse in terms of getting projects launched on a timely basis and producing high quality work. 
+          </p>
+          <p>
+            <span class="title_attr">duration</span> Sept 2020 – present
+          </p>
+          <p>
+            <span class="title_attr">location</span> Framingham, Massachusetts
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div class="entry">
       <div class="job">
         <h3>Front-End Web Developer</h3>
@@ -33,10 +54,10 @@ const SecondPage = () => (
             <span class="title_attr">employer</span> <a href="https://membersfirst.com" target="_blank" rel="noopener noreferrer">MembersFirst <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a>
           </p>
           <p>
-          <span class="title_attr">description</span> currently developing websites from team designed mockups, creating efficiencies within our internal process to decrease amount of time needed for site development and productivity, maintaining CDN which covers over 340 websites, solving tickets through the JIRA bug tracking software, creating various products and offerings including digital signs, landing pages, and dining module templates, while also actively creating documentation for teammates
+          <span class="title_attr">description</span> developed websites from team designed mockups, creating efficiencies within our internal process to decrease amount of time needed for site development and productivity, maintaining CDN which covers over 340 websites, solving tickets through the JIRA bug tracking software, creating various products and offerings including digital signs, landing pages, and dining module templates, while also actively creating documentation for teammates
           </p>
           <p>
-          <span class="title_attr">duration</span> Jan 2018 – present
+          <span class="title_attr">duration</span> Jan 2018 – Sept 2020
           </p>
           <p>
           <span class="title_attr">location</span> Wayland, Massachusetts
@@ -50,7 +71,7 @@ const SecondPage = () => (
          <h3>Interactive Designer</h3>
          <div class="indent">
            <p><span class="title_attr">employer</span> <a href="https://membersfirst.com" target="_blank" rel="noopener noreferrer">MembersFirst <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a></p>
-           <p><span class="title_attr">description</span> develop websites from mockups, creating mockups, giving design feedback to based on personal experience developing websites, and leading the responsive global email template project</p>
+           <p><span class="title_attr">description</span> developed websites from mockups, creating mockups, giving design feedback to based on personal experience developing websites, and leading the responsive global email template project</p>
            <p><span class="title_attr">duration</span> May 2016 – Dec 2017</p>
            <p><span class="title_attr">location</span> Wayland, Massachusetts</p>
          </div>

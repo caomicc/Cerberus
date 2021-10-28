@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Cameron Omiccioli`,
-    description: `Cameron Omiccioli's Portfolio Website`,
+    title: `Cameron Omiccioli-Akhmetova`,
+    description: `Cameron Omiccioli-Akhmetova's Portfolio Website`,
     author: `@caomicc`,
   },
   plugins: [
@@ -19,13 +19,24 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `gatsby-portfolio`,
+        short_name: `portfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#1fa2ff`,
+        theme_color: `#1fa2ff`,
         display: `minimal-ui`,
         icon: `src/images/apple-touch-icon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        // Configure color of the scroll indicator
+        color: "linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb)",
+        // Height of the scroll indicator
+        height: "5px",
+        // Configure the z-index of the indicator element
+        zIndex: `9999`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

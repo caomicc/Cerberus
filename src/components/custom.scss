@@ -110,20 +110,23 @@ a{
   display: inline-block;
   position: relative;
   text-decoration: none;
+  font-weight: 600;
   &:after{
     width: 100%;
-    height: 2px;
-    background: rgba($primary,.4);
+    height: 10px;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
     content: "";
     position: absolute;
     bottom: 2px;
     right: 0;
-    transition: .2s ease-in-out;
+    opacity: .5;
+    transition: .3s ease-in-out;
     z-index: -1;
   }
   &:hover, &:focus{
     &:after{
-      height: 50%;
+      opacity: .6;
+      height: 60%;
     }
   }
 }
@@ -190,6 +193,12 @@ footer{
 	@media print {
 		display: none;
 	}
+}
+.social-link{
+  margin-right: .5rem;
+  +.social-link {
+    margin: 0 .5rem;
+  }
 }
 .sr-only {
   border: 0;

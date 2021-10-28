@@ -22,28 +22,33 @@ const IndexPage = () => (
       Feel free to <a href="mailto:caomicc@gmail.com">shoot me an email</a> if you're looking for help on a project.
     </p>
     <p>
-      Often, I am described as a hard working, fast learning, and <em>"pixel perfect"</em>.
+      Often, I am described as a hard working, fast learning, and <em>"pixel-perfect"</em>.
       I strive to make the integration between design and code fluid and seamless, including making sites cohesive in code and design while also keeping all audiences in mind.
     </p>
     <p>
       When I'm not working, I'm often hanging out with my pets, playing Animal Crossing, binging something tv show (currently: <i>American Dad!</i>), or doing some home project with my husband.
     </p>
-    <h2>Links</h2>
+    <h2>  <Emoji
+      symbol="🔗"
+      label="links"
+    /> Links</h2>
     <Link to="/projects/">Recent Projects</Link><br/>
     <Link to="/resume/">Curriculum Vitae</Link><br/>
-    <a href="mailto:caomicc@gmail.com">
+
+    <h2><Emoji
+      symbol="✉️"
+      label="contact"
+    /> Contact</h2>
+    <a href="mailto:caomicc@gmail.com" class="social-link">
       Email
     </a>
-    <br/>
-    <a href="https://www.linkedin.com/in/caomicc" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/caomicc" class="social-link" target="_blank" rel="noopener noreferrer">
       LinkedIn
     </a>
-    <br/>
-    <a href="https://github.com/caomicc" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/caomicc" class="social-link" target="_blank" rel="noopener noreferrer">
       GitHub
     </a>
-    <br/>
-    <a href="https://www.facebook.com/caomicc" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/caomicc" class="social-link" target="_blank" rel="noopener noreferrer">
       Facebook
     </a>
   </Layout>
