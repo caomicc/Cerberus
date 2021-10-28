@@ -10,6 +10,6 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/index.js"))),
   "component---src-pages-printable-resume-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/printable-resume.js"))),
   "component---src-pages-projects-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/projects.js"))),
-  "component---src-pages-resume-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/resume.js")))
+  "component---src-pages-curriculum-vitae-js": hot(preferDefault(require("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/curriculum-vitae.js")))
 }
 

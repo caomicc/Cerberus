@@ -33,7 +33,7 @@ const IndexPage = () => (
       label="links"
     /> Links</h2>
     <Link to="/projects/">Recent Projects</Link><br/>
-    <Link to="/resume/">Curriculum Vitae</Link><br/>
+    <Link to="/curriculum-vitae/">Curriculum Vitae</Link><br/>
 
     <h2><Emoji
       symbol="✉️"

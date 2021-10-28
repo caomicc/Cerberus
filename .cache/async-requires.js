@@ -7,6 +7,6 @@ exports.components = {
   "component---src-pages-index-js": () => import("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-printable-resume-js": () => import("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/printable-resume.js" /* webpackChunkName: "component---src-pages-printable-resume-js" */),
   "component---src-pages-projects-js": () => import("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/projects.js" /* webpackChunkName: "component---src-pages-projects-js" */),
-  "component---src-pages-resume-js": () => import("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/resume.js" /* webpackChunkName: "component---src-pages-resume-js" */)
+  "component---src-pages-curriculum-vitae-js": () => import("/Users/cameronomiccioli/Documents/git/cerberus/src/pages/curriculum-vitae.js" /* webpackChunkName: "component---src-pages-curriculum-vitae-js" */)
 }
 
