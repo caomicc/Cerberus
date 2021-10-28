@@ -35,11 +35,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <div
-        style={{
-          margin: `0 auto`,
+        css={{
+          margin: `0 auto 0 6rem`,
           maxWidth: 700,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
+          // As are media queries!
+          '@media (max-width: 863px)': {
+            margin: `0 auto`,
+          },
         }}
       >
         <main>{children}</main>

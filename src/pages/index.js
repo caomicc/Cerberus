@@ -39,16 +39,16 @@ const IndexPage = () => (
       symbol="✉️"
       label="contact"
     /> Contact</h2>
-    <a href="mailto:caomicc@gmail.com" class="social-link">
+    <a href="mailto:caomicc@gmail.com" className="social-link">
       Email
     </a>
-    <a href="https://www.linkedin.com/in/caomicc" class="social-link" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/caomicc" className="social-link" target="_blank" rel="noopener noreferrer">
       LinkedIn
     </a>
-    <a href="https://github.com/caomicc" class="social-link" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/caomicc" className="social-link" target="_blank" rel="noopener noreferrer">
       GitHub
     </a>
-    <a href="https://www.facebook.com/caomicc" class="social-link" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/caomicc" className="social-link" target="_blank" rel="noopener noreferrer">
       Facebook
     </a>
   </Layout>

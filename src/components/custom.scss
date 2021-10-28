@@ -97,6 +97,15 @@ html{
     font-size: 137.5%;
   };
 }
+
+body{
+  &.dark-mode{
+    background: black;
+    * {
+      color: white;
+    }
+  }
+}
 .lead{
   // font-size: 1.3rem;
   // line-height: 1.5;
