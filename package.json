@@ -22,7 +22,7 @@
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-transformer-sharp": "^2.12.1",
     "glamor": "^2.20.40",
-    "mozjpeg": "^7.1.1",
+    "mozjpeg": "^7.1.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
