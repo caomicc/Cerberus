@@ -232,7 +232,6 @@ const SecondPage = () => (
     </div>
 
 
-    <Link to="/printable-resume/" className="home-link">Printable Resume</Link><br/>
     <Link to="/" className="home-link">Home</Link>
   </Layout>
 )
