@@ -44,9 +44,9 @@ const Layout = ({ children }) => {
                 onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
                 checked={theme === 'dark'}
               />{' '}
-              <div class="planet">
+            <div className="planet">
               </div>
-              <div class="elements">
+            <div className="elements">
                 <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="250" cy="250" r="200" />
                 </svg>

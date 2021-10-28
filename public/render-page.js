@@ -35320,9 +35320,9 @@ const Layout = ({
     onChange: e => toggleTheme(e.target.checked ? 'dark' : 'light'),
     checked: theme === 'dark'
   }), ' ', Glamor.createElement("div", {
-    class: "planet"
+    className: "planet"
   }), Glamor.createElement("div", {
-    class: "elements"
+    className: "elements"
   }, Glamor.createElement("svg", {
     version: "1.1",
     viewBox: "0 0 500 500",
