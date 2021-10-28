@@ -19,7 +19,7 @@ const SecondPage = () => (
       label="skills"
     />
       &nbsp;Skills</h2>
-    <p>HTML, CSS, SCSS, Twig, Javascript, jQuery, Node.JS, AJAX, Bootstrap, PHP, Wordpress, Git, WCAG, JIRA, Sketch, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership and Team Management, A/B Testing, Gatsby, Typography, Corporate Identity, Responsive Web Design, UI/UX</p>
+    <p>HTML, CSS, SCSS, Twig, Javascript, jQuery, Node.JS, AJAX, Bootstrap, PHP, Wordpress, Git, WCAG, JIRA, Sketch, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership and Team Management, A/B Testing, Gatsby, Typography, Corporate Identity, Responsive Web Design</p>
 
     <h2><Emoji
       symbol="🖥"
