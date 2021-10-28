@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { faHeart, faCannabis, faMagic  } from '@fortawesome/free-solid-svg-icons'
@@ -34,18 +35,58 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <ThemeToggler>
+          {({ theme, toggleTheme }) => (
+            <label className="label-toggle">
+              <input
+                type="checkbox"
+                onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                checked={theme === 'dark'}
+              />{' '}
+              <div class="planet">
+              </div>
+              <div class="elements">
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+                <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="250" cy="250" r="200" />
+                </svg>
+              </div>
+            </label>
+          )}
+        </ThemeToggler>
+
       <div
         css={{
-          margin: `0 auto 0 6rem`,
+          margin: `0 auto`,
           maxWidth: 700,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
-          // As are media queries!
           '@media (max-width: 863px)': {
             margin: `0 auto`,
           },
         }}
       >
+        
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()} by yours truly. <br/>

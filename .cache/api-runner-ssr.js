@@ -5,11 +5,11 @@ var plugins = [{
       plugin: require('/Users/cameronomiccioli/Documents/git/cerberus/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/cameronomiccioli/Documents/git/cerberus/node_modules/gatsby-plugin-dark-mode/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/cameronomiccioli/Documents/git/cerberus/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-portfolio","short_name":"portfolio","start_url":"/","background_color":"#1fa2ff","theme_color":"#1fa2ff","display":"minimal-ui","icon":"src/images/apple-touch-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"85fc33e18f073f064708544882916e3a"},
-    },{
-      plugin: require('/Users/cameronomiccioli/Documents/git/cerberus/node_modules/gatsby-plugin-use-dark-mode/gatsby-ssr'),
-      options: {"plugins":[],"classNameDark":"dark-mode","classNameLight":"light-mode","storageKey":"darkMode","minify":true},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

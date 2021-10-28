@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-dark-mode',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -27,15 +28,6 @@ module.exports = {
         theme_color: `#1fa2ff`,
         display: `minimal-ui`,
         icon: `src/images/apple-touch-icon.png`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-use-dark-mode',
-      options: {
-        classNameDark: 'dark-mode',
-        classNameLight: 'light-mode',
-        storageKey: 'darkMode',
-        minify: true,
       },
     },
     {
