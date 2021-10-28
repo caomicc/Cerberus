@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
     <>
     <ThemeToggler>
           {({ theme, toggleTheme }) => (
-            <label className="label-toggle">
+            <label className="label-toggle" tabIndex="0">
               <input
                 type="checkbox"
                 onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
