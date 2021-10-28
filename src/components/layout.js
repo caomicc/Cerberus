@@ -19,6 +19,7 @@ import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import Emoji from "./emoji"
 import "./layout.css"
 import "./custom.scss"
+import 'animate.css';
 
 // library.add(faHeart, faCannabis, faMagic)
 

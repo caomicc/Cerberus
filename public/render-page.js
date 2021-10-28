@@ -2552,6 +2552,17 @@ exports.shallowCompare = shallowCompare;
 
 /***/ }),
 
+/***/ "./node_modules/animate.css/animate.css":
+/*!**********************************************!*\
+  !*** ./node_modules/animate.css/animate.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./node_modules/css-in-js-utils/lib/hyphenateProperty.js":
 /*!***************************************************************!*\
   !*** ./node_modules/css-in-js-utils/lib/hyphenateProperty.js ***!
@@ -35273,6 +35284,8 @@ var _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0___namespac
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _custom_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./custom.scss */ "./src/components/custom.scss");
 /* harmony import */ var _custom_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_custom_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! animate.css */ "./node_modules/animate.css/animate.css");
+/* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(animate_css__WEBPACK_IMPORTED_MODULE_7__);
 
 
 /**
@@ -35286,6 +35299,7 @@ var _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0___namespac
  // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { faHeart, faCannabis, faMagic  } from '@fortawesome/free-solid-svg-icons'
 // import Header from "./header"
+
 
 
 
@@ -35547,10 +35561,16 @@ const IndexPage = () => Glamor.createElement(_components_layout__WEBPACK_IMPORTE
   title: "Home"
 }), Glamor.createElement("h1", null, "Cameron Omiccioli-Akhmetova"), Glamor.createElement("p", {
   className: "lead"
-}, "Hi there! ", Glamor.createElement(_components_emoji__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}, "Hi there!", Glamor.createElement("span", {
+  className: "animate__animated animate__wobble animate__delay-1s",
+  css: {
+    display: 'inline-block',
+    paddingLeft: '5px'
+  }
+}, Glamor.createElement(_components_emoji__WEBPACK_IMPORTED_MODULE_3__["default"], {
   symbol: "\uD83D\uDC4B\uD83C\uDFFB",
   label: "wave"
-}), " ", Glamor.createElement("br", null), "My name is Cameron && I'm a front end web developer from Hudson, MA."), Glamor.createElement("p", null, "Currently I write code and make magic happen for ", Glamor.createElement("a", {
+})), " ", Glamor.createElement("br", null), "My name is Cameron && I'm a front end web developer from Hudson, MA."), Glamor.createElement("p", null, "Currently I write code and make magic happen for ", Glamor.createElement("a", {
   href: "https://www.workhuman.com",
   target: "_blank",
   rel: "noopener noreferrer"

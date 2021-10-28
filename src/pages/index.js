@@ -4,17 +4,19 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Emoji from "../components/emoji"
 import SEO from "../components/seo"
-
 const IndexPage = () => (
   <Layout>
-    
+
     <SEO title="Home" />
     <h1>Cameron Omiccioli-Akhmetova</h1>
     <p className="lead">
-      Hi there! <Emoji
+      Hi there! 
+      <span className="animate__animated animate__wobble animate__delay-1s" css={{display: 'inline-block',paddingLeft: '5px',}}>
+      <Emoji
         symbol="👋🏻"
-      label="wave"
-      /> <br/>
+        label="wave"
+      />
+      </span> <br/>
       My name is Cameron && I'm a front end web developer from Hudson, MA.
     </p>
     <p>
