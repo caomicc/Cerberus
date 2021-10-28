@@ -10,8 +10,8 @@ const SecondPage = () => (
     <SEO title="Curriculum Vitae for Cameron Omiccioli-Akhmetova" />
     <h1>Cameron Omiccioli-Akhmetova</h1>
 
-    <p class="mb-0">Front End Devloper | caomicc@gmail.com </p>
-    <p>Hudson, MA | www.caomicc.com</p>
+    <p class="mb-0">Front End Web Devloper | caomicc@gmail.com | Hudson, MA</p>
+    <p>www.caomicc.com</p>
 
     <h2> 
     <Emoji
@@ -19,7 +19,7 @@ const SecondPage = () => (
       label="skills"
     />
       &nbsp;Skills</h2>
-    <p>HTML, CSS, SCSS, JavaScript, jQuery, Node.JS, AJAX, Bootstrap, Twig, PHP, Wordpress, Git, WCAG, JIRA, Sketch, XD, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership, A/B Testing</p>
+    <p>HTML, CSS, SCSS, Twig, Javascript, jQuery, Node.JS, AJAX, Bootstrap, PHP, Wordpress, Git, WCAG, JIRA, Sketch, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership and Team Management, A/B Testing, Gatsby, Typography, Corporate Identity, Responsive Web Design, UI/UX</p>
 
     <h2><Emoji
       symbol="🖥"
@@ -34,7 +34,7 @@ const SecondPage = () => (
             <span class="title_attr">employer</span> <a href="https://workhuman.com" target="_blank" rel="noopener noreferrer">Workhuman <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="sr-only">(opens in new tab)</span></a>
           </p>
           <p>
-            <span class="title_attr">description</span> currently mantaining and developing our wordpress website, actively looking for ways to learn, supporting my team by providing feedback to designs and flexing my own design muscle where I can, being utilized as an accessibility resource, and being a total powerhouse in terms of getting projects launched on a timely basis and producing high quality work. 
+            <span class="title_attr">description</span> currently mantaining and developing our wordpress website, actively looking for ways to learn, supporting my team by providing feedback to designs and flexing my own design muscle where I can, being utilized as an accessibility resource, and being a total powerhouse in terms of getting projects launched on a timely basis and producing high quality work
           </p>
           <p>
             <span class="title_attr">duration</span> Sept 2020 – present
@@ -143,7 +143,7 @@ const SecondPage = () => (
         <div class="indent">
           <p><span class="title_attr">institution</span> Framingham State University</p>
           <p><span class="title_attr">years attended</span> 2012 – 2016</p>
-          <p><span class="title_attr">research study</span> computer and information security through password protection, use of biometrics, and physical keys in terms of cost over a set period of time and ease of use.</p>
+          <p><span class="title_attr">research study</span> computer and information security through password protection, use of biometrics, and physical keys in terms of cost over a set period of time and ease of use</p>
         </div>
       </div>
     </div>

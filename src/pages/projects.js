@@ -24,7 +24,7 @@ const SecondPage = () => (
       <div class="job">
         <h3>The Quarry Golf Club</h3>
         <div class="indent">
-          <p><span class="title_attr">url</span> <a href="http://quarrygolfnaples.memfirstweb.net/" target="_blank" rel="noopener noreferrer"> http://quarrygolfnaples.memfirstweb.net/</a></p>
+          <p><span class="title_attr">url</span> <a href="https://www.quarrygolfnaples.com/" target="_blank" rel="noopener noreferrer"> https://www.quarrygolfnaples.com/</a></p>
           <p><span class="title_attr">project date</span> Feb 2020</p>
           <p><span class="title_attr">role</span> lead developer</p>
         </div>
