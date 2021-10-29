@@ -4,7 +4,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Emoji from "../components/emoji"
-import Row from "../components/entry/row"
+import Experience from "../components/entry/experience"
+import Awards from "../components/entry/awards"
+import Education from "../components/entry/education"
 
 const experience = [
   { name: "Front-End Web Developer", employer: <a href="https://www.workhuman.com" target="_blank" rel="noopener noreferrer">Workhuman <i className="fas fa-external-link-alt" aria-hidden="true"></i><span className="sr-only">(opens in new tab)</span></a>, description: "currently mantaining and developing our wordpress website, actively looking for ways to learn, supporting my team by providing feedback to designs and flexing my own design muscle where I can, being utilized as an accessibility resource, and being a total powerhouse in terms of getting projects launched on a timely basis and producing high quality work", duration: "Sept 2020 – present", location: "Framingham, Massachusetts" },
@@ -32,52 +34,6 @@ const awards = [
   { name: "Best In Class (Lifestyle) - The Silverleaf Club", date: "Aug 2018", issuer: "Interactive Media Awards", certificate: <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=767830&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i className="fas fa-external-link-alt" aria-hidden="true"></i><span className="sr-only">(opens in new tab)</span></a> },
   { name: "Outstanding Achievement (Restaurant) - Local 02045", date: "Aug 2018", issuer: "Interactive Media Awards", certificate: <a href="https://www.interactivemediaawards.com/winners/certificate.asp?param=767823&cat=1" target="_blank" rel="noopener noreferrer">view certificate <i className="fas fa-external-link-alt" aria-hidden="true"></i><span className="sr-only">(opens in new tab)</span></a> },
 ];
-
-const Experience = ({ name, employer, description, duration, location }) => {
-  return (
-    <div className="entry">
-      <div className="job">
-        <h3>{name}</h3>
-        <div className="indent">
-          <Row label="employer">{employer}</Row>
-          <Row label="description">{description}</Row>
-          <Row label="duration">{duration}</Row>
-          <Row label="location">{location}</Row>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-const Education = ({ name, institution, duration, research }) => {
-  return (
-    <div className="entry">
-      <div className="job">
-        <h3>{name}</h3>
-        <div className="indent">
-          <Row label="institution">{institution}</Row>
-          <Row label="duration">{duration}</Row>
-          <Row label="research study">{research}</Row>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-const Awards = ({ name, date, issuer, certificate }) => {
-  return (
-    <div className="entry">
-      <div className="job">
-        <h3>{name}</h3>
-        <div className="indent">
-          <Row label="issue date">{date}</Row>
-          <Row label="issuer">{issuer}</Row>
-          <Row label="certificate">{certificate}</Row>
-        </div>
-      </div>
-    </div>
-  )
-}
 
 const SecondPage = () => (
   <Layout>
