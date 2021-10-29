@@ -111,7 +111,9 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
+  "component---src-pages-curriculum-vitae-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/curriculum-vitae.js */ "./src/pages/curriculum-vitae.js"))),
+  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
+  "component---src-pages-projects-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/projects.js */ "./src/pages/projects.js")))
   }
 
 
@@ -35239,14 +35241,47 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Emoji = props => Glamor.createElement("span", {
+const Emoji = ({
+  label,
+  symbol
+}) => Glamor.createElement("span", {
   className: "emoji",
   role: "img",
-  "aria-label": props.label ? props.label : "",
-  "aria-hidden": props.label ? "false" : "true"
-}, props.symbol);
+  "aria-label": label,
+  "aria-hidden": label ? "false" : "true"
+}, symbol);
 
 /* harmony default export */ __webpack_exports__["default"] = (Emoji);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! glamor/react */ "./node_modules/glamor/react.js")))
+
+/***/ }),
+
+/***/ "./src/components/entry/row.js":
+/*!*************************************!*\
+  !*** ./src/components/entry/row.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(Glamor) {/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+const Row = ({
+  label,
+  children
+}) => Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, label), " ", Glamor.createElement("span", null, children));
+
+/* harmony default export */ __webpack_exports__["default"] = (Row);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! glamor/react */ "./node_modules/glamor/react.js")))
 
 /***/ }),
@@ -35536,6 +35571,345 @@ const NotFoundPage = () => Glamor.createElement(_components_layout__WEBPACK_IMPO
 
 /***/ }),
 
+/***/ "./src/pages/curriculum-vitae.js":
+/*!***************************************!*\
+  !*** ./src/pages/curriculum-vitae.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(Glamor) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _components_emoji__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/emoji */ "./src/components/emoji.js");
+/* harmony import */ var _components_entry_row__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/entry/row */ "./src/components/entry/row.js");
+
+
+
+
+
+
+const experience = [{
+  name: "Front-End Web Developer",
+  employer: "",
+  description: "",
+  duration: "",
+  location: ""
+}];
+const education = [{
+  name: "BS Computer Science and Information System",
+  institution: "Framingham State University",
+  duration: "2012 – 2016",
+  research: "computer and information security through password protection, use of biometrics, and physical keys in terms of cost over a set period of time and ease of use"
+}, {
+  name: "High School Diploma",
+  institution: "Natick High School",
+  duration: "2009 – 2012",
+  research: "web design and development programs, web & graphic design, and training for adobe certification"
+}];
+const awards = [{
+  name: "Best In Class (Lifestyle) - Addison Reserve Country Club",
+  date: "Aug 2019",
+  issuer: "Interactive Media Awards",
+  certificate: () => Glamor.createElement("a", {
+    href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=770294&cat=1",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "view certificate ", Glamor.createElement("i", {
+    className: "fas fa-external-link-alt",
+    "aria-hidden": "true"
+  }), Glamor.createElement("span", {
+    className: "sr-only"
+  }, "(opens in new tab)"))
+}];
+
+const Experience = ({
+  name,
+  employer,
+  description,
+  duration,
+  location
+}) => {
+  return Glamor.createElement("div", {
+    className: "entry"
+  }, Glamor.createElement("div", {
+    className: "job"
+  }, Glamor.createElement("h3", null, name), Glamor.createElement("div", {
+    className: "indent"
+  }, Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "employer"
+  }, employer), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "description"
+  }, description), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "duration"
+  }, duration), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "location"
+  }, location))));
+};
+
+const Education = ({
+  name,
+  institution,
+  duration,
+  research
+}) => {
+  return Glamor.createElement("div", {
+    className: "entry"
+  }, Glamor.createElement("div", {
+    className: "job"
+  }, Glamor.createElement("h3", null, name), Glamor.createElement("div", {
+    className: "indent"
+  }, Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "institution"
+  }, institution), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "duration"
+  }, duration), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "research study"
+  }, research))));
+};
+
+const Awards = ({
+  name,
+  date,
+  issuer,
+  certificate
+}) => {
+  return Glamor.createElement("div", {
+    className: "entry"
+  }, Glamor.createElement("div", {
+    className: "job"
+  }, Glamor.createElement("h3", null, name), Glamor.createElement("div", {
+    className: "indent"
+  }, Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "issue date"
+  }, date), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "issuer"
+  }, issuer), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    label: "certificate"
+  }, certificate))));
+};
+
+const SecondPage = () => Glamor.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, Glamor.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  title: "Curriculum Vitae for Cameron Omiccioli-Akhmetova"
+}), Glamor.createElement("h1", null, "Cameron Omiccioli-Akhmetova"), Glamor.createElement("p", {
+  className: "mb-0"
+}, "Front End Web Devloper | caomicc@gmail.com | Hudson, MA"), Glamor.createElement("p", null, "www.caomicc.com"), Glamor.createElement("h2", null, Glamor.createElement(_components_emoji__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  symbol: "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBB",
+  label: "skills"
+}), "\xA0Skills"), Glamor.createElement("p", null, "HTML, CSS, SCSS, Twig, Javascript, jQuery, Node.JS, AJAX, Bootstrap, PHP, Wordpress, Git, WCAG, JIRA, Sketch, Abstract, Adobe Creative Suite, UI/UX, Graphic Design, Hubspot, Technical Writing, Leadership and Team Management, A/B Testing, Gatsby, Typography, Corporate Identity, Responsive Web Design"), Glamor.createElement("h2", null, Glamor.createElement(_components_emoji__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  symbol: "\uD83D\uDDA5",
+  label: "experience"
+}), " \xA0Experience"), experience.map(({
+  name,
+  employer,
+  description,
+  duration,
+  location
+}) => Glamor.createElement(Experience, {
+  name: name,
+  employer: employer,
+  description: description,
+  duration: duration,
+  location: location
+})), Glamor.createElement("h2", null, " ", Glamor.createElement(_components_emoji__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  symbol: "\uD83C\uDF93",
+  label: "education"
+}), " Education"), education.map(({
+  name,
+  institution,
+  duration,
+  research
+}) => Glamor.createElement(Education, {
+  name: name,
+  institution: institution,
+  duration: duration,
+  research: research
+})), Glamor.createElement("h2", null, Glamor.createElement(_components_emoji__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  symbol: "\uD83C\uDFC6",
+  label: "magic"
+}), " Honors & Awards"), awards.map(({
+  name,
+  date,
+  issuer,
+  certificate
+}) => Glamor.createElement(Awards, {
+  name: name,
+  date: date,
+  issuer: issuer,
+  certificate: certificate
+})), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " "), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " Interactive Media Awards"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ")))), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null, "Best In Class (Lifestyle) - The Club at Ibis"), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " Aug 2019"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " "), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ", Glamor.createElement("a", {
+  href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=770308&cat=1",
+  target: "_blank",
+  rel: "noopener noreferrer"
+}, "view certificate ", Glamor.createElement("i", {
+  className: "fas fa-external-link-alt",
+  "aria-hidden": "true"
+}), Glamor.createElement("span", {
+  className: "sr-only"
+}, "(opens in new tab)")))))), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null, "Best In Class (Lifestyle) - The Club at Renaissance"), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " Aug 2019"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " Interactive Media Awards"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ", Glamor.createElement("a", {
+  href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=770315&cat=1",
+  target: "_blank",
+  rel: "noopener noreferrer"
+}, "view certificate ", Glamor.createElement("i", {
+  className: "fas fa-external-link-alt",
+  "aria-hidden": "true"
+}), Glamor.createElement("span", {
+  className: "sr-only"
+}, "(opens in new tab)")))))), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null, "Outstanding Achievement (Lifestyle) - Steel Club"), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " Aug 2019"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " Interactive Media Awards"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ", Glamor.createElement("a", {
+  href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=770322&cat=1",
+  target: "_blank",
+  rel: "noopener noreferrer"
+}, "view certificate ", Glamor.createElement("i", {
+  className: "fas fa-external-link-alt",
+  "aria-hidden": "true"
+}), Glamor.createElement("span", {
+  className: "sr-only"
+}, "(opens in new tab)")))))), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null, "Best In Class (Lifestyle) - Colleton River Club"), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " Aug 2018"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " Interactive Media Awards"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ", Glamor.createElement("a", {
+  href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=767816&cat=1",
+  target: "_blank",
+  rel: "noopener noreferrer"
+}, "view certificate ", Glamor.createElement("i", {
+  className: "fas fa-external-link-alt",
+  "aria-hidden": "true"
+}), Glamor.createElement("span", {
+  className: "sr-only"
+}, "(opens in new tab)")))))), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null, "Best In Class (Lifestyle) - Manchester Country Club"), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " Aug 2018"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " Interactive Media Awards"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ", Glamor.createElement("a", {
+  href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=767809&cat=1",
+  target: "_blank",
+  rel: "noopener noreferrer"
+}, "view certificate ", Glamor.createElement("i", {
+  className: "fas fa-external-link-alt",
+  "aria-hidden": "true"
+}), Glamor.createElement("span", {
+  className: "sr-only"
+}, "(opens in new tab)")))))), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null, "Best In Class (Lifestyle) - The Silverleaf Club"), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " Aug 2018"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " Interactive Media Awards"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ", Glamor.createElement("a", {
+  href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=767830&cat=1",
+  target: "_blank",
+  rel: "noopener noreferrer"
+}, "view certificate ", Glamor.createElement("i", {
+  className: "fas fa-external-link-alt",
+  "aria-hidden": "true"
+}), Glamor.createElement("span", {
+  className: "sr-only"
+}, "(opens in new tab)")))))), Glamor.createElement("div", {
+  className: "entry"
+}, Glamor.createElement("div", {
+  className: "job"
+}, Glamor.createElement("h3", null, "Outstanding Achievement (Restaurant) - Local 02045"), Glamor.createElement("div", {
+  className: "indent"
+}, Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issue date"), " Aug 2018"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "issuer"), " Interactive Media Awards"), Glamor.createElement("p", null, Glamor.createElement("span", {
+  className: "title_attr"
+}, "certificate"), " ", Glamor.createElement("a", {
+  href: "https://www.interactivemediaawards.com/winners/certificate.asp?param=767823&cat=1",
+  target: "_blank",
+  rel: "noopener noreferrer"
+}, "view certificate ", Glamor.createElement("i", {
+  className: "fas fa-external-link-alt",
+  "aria-hidden": "true"
+}), Glamor.createElement("span", {
+  className: "sr-only"
+}, "(opens in new tab)")))))), Glamor.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  to: "/",
+  className: "home-link"
+}, "Home"));
+
+/* harmony default export */ __webpack_exports__["default"] = (SecondPage);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! glamor/react */ "./node_modules/glamor/react.js")))
+
+/***/ }),
+
 /***/ "./src/pages/index.js":
 /*!****************************!*\
   !*** ./src/pages/index.js ***!
@@ -35607,6 +35981,137 @@ const IndexPage = () => Glamor.createElement(_components_layout__WEBPACK_IMPORTE
 }, "Facebook"));
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! glamor/react */ "./node_modules/glamor/react.js")))
+
+/***/ }),
+
+/***/ "./src/pages/projects.js":
+/*!*******************************!*\
+  !*** ./src/pages/projects.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(Glamor) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _components_entry_row__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/entry/row */ "./src/components/entry/row.js");
+
+
+
+
+
+const entries = [{
+  name: "Workhuman Careers",
+  href: "https://www.workhuman.com/company/careers/",
+  projectDate: "Sept 2021",
+  role: "lead developer"
+}, {
+  name: "Belmont Country Club",
+  href: "https://www.belmontcc.org/",
+  projectDate: "Apr 2020",
+  role: "lead developer"
+}, {
+  name: "The Quarry Golf Club",
+  href: "https://www.quarrygolfnaples.com/",
+  projectDate: "Feb 2020",
+  role: "lead developer"
+}, {
+  name: "San Jose Country Club",
+  href: "https://www.sjccjax.com/",
+  projectDate: "Feb 2020",
+  role: "lead developer"
+}, {
+  name: "Bear Lakes Country Club",
+  href: "https://www.bearlakes.org/",
+  projectDate: "Jan 2020",
+  role: "lead developer"
+}, {
+  name: "Stonebridge Country Club",
+  href: "https://www.stonebridgecountryclub.com/",
+  projectDate: "Dec 2019",
+  role: "lead developer"
+}, {
+  name: "Ocean Village",
+  href: "https://www.oceanvillage.com/",
+  projectDate: "Nov 2019",
+  role: "lead developer"
+}, {
+  name: "Waverly Country Club",
+  href: "https://www.waverley.cc/",
+  projectDate: "Sept 2019",
+  role: "lead developer"
+}, {
+  name: "Addison Reserve",
+  href: "https://www.waverley.cc/",
+  projectDate: "Sept 2018",
+  role: "lead developer"
+}, {
+  name: "Club at Ibis",
+  href: "https://www.clubatibis.com/",
+  projectDate: "Jan 2018",
+  role: "lead developer"
+}, {
+  name: "Silverleaf Club",
+  href: "https://www.silverleafclub.com/",
+  projectDate: "Oct 2017",
+  role: "lead developer"
+}, {
+  name: "Manchester Country Club",
+  href: "https://www.manchestercountryclub.com/",
+  projectDate: "Jun 2017",
+  role: "lead developer"
+}];
+
+const Entry = ({
+  name,
+  href,
+  projectDate,
+  role
+}) => {
+  return Glamor.createElement("div", {
+    className: "entry"
+  }, Glamor.createElement("div", {
+    className: "job"
+  }, Glamor.createElement("h3", null, name), Glamor.createElement("div", {
+    className: "indent"
+  }, Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    label: "url"
+  }, Glamor.createElement("a", {
+    href: href,
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, href)), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    label: "project date"
+  }, projectDate), Glamor.createElement(_components_entry_row__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    label: "role"
+  }, role))));
+};
+
+const SecondPage = () => {
+  return Glamor.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, Glamor.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Projects"
+  }), Glamor.createElement("h1", null, "Recent Projects*"), Glamor.createElement("p", null, Glamor.createElement("i", null, "*and favorites ones, too.")), entries.map(({
+    name,
+    href,
+    projectDate,
+    role
+  }) => Glamor.createElement(Entry, {
+    name: name,
+    href: href,
+    projectDate: projectDate,
+    role: role
+  })), Glamor.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    className: "home-link"
+  }, "Home"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SecondPage);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! glamor/react */ "./node_modules/glamor/react.js")))
 
 /***/ }),

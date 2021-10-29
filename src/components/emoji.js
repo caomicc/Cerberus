@@ -2,14 +2,14 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Emoji = props => (
+const Emoji = ({label, symbol}) => (
     <span
         className="emoji"
         role="img"
-        aria-label={props.label ? props.label : ""}
-        aria-hidden={props.label ? "false" : "true"}
+        aria-label={label}
+        aria-hidden={label ? "false" : "true"}
     >
-        {props.symbol}
+        {symbol}
     </span>
 );
 export default Emoji;

@@ -6,7 +6,6 @@ exports.components = {
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-curriculum-vitae-js": () => import("./../../../src/pages/curriculum-vitae.js" /* webpackChunkName: "component---src-pages-curriculum-vitae-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-printable-resume-js": () => import("./../../../src/pages/printable-resume.js" /* webpackChunkName: "component---src-pages-printable-resume-js" */),
   "component---src-pages-projects-js": () => import("./../../../src/pages/projects.js" /* webpackChunkName: "component---src-pages-projects-js" */)
 }
 

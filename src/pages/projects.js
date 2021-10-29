@@ -3,135 +3,49 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Row from "../components/entry/row"
 
-const SecondPage = () => (
+const entries = [
+  { name: "Workhuman Careers", href: "https://www.workhuman.com/company/careers/", projectDate: "Sept 2021", role: "lead developer" },
+  { name: "Belmont Country Club", href: "https://www.belmontcc.org/", projectDate: "Apr 2020", role: "lead developer" },
+  { name: "The Quarry Golf Club", href: "https://www.quarrygolfnaples.com/", projectDate: "Feb 2020", role: "lead developer" },
+  { name: "San Jose Country Club", href: "https://www.sjccjax.com/", projectDate: "Feb 2020", role: "lead developer" },
+  { name: "Bear Lakes Country Club", href: "https://www.bearlakes.org/", projectDate: "Jan 2020", role: "lead developer" },
+  { name: "Stonebridge Country Club", href: "https://www.stonebridgecountryclub.com/", projectDate: "Dec 2019", role: "lead developer" },
+  { name: "Ocean Village", href: "https://www.oceanvillage.com/", projectDate: "Nov 2019", role: "lead developer" },
+  { name: "Waverly Country Club", href: "https://www.waverley.cc/", projectDate: "Sept 2019", role: "lead developer" },
+  { name: "Addison Reserve", href: "https://www.waverley.cc/", projectDate: "Sept 2018", role: "lead developer" },
+  { name: "Club at Ibis", href: "https://www.clubatibis.com/", projectDate: "Jan 2018", role: "lead developer" },
+  { name: "Silverleaf Club", href: "https://www.silverleafclub.com/", projectDate: "Oct 2017", role: "lead developer" },
+  { name: "Manchester Country Club", href: "https://www.manchestercountryclub.com/", projectDate: "Jun 2017", role: "lead developer" },
+];
+
+const Entry = ({name, href, projectDate, role}) => {
+  return (
+    <div className="entry">
+      <div className="job">
+        <h3>{name}</h3>
+        <div className="indent">
+          <Row label="url"><a href={href} target="_blank" rel="noopener noreferrer">{href}</a></Row>
+          <Row label="project date">{projectDate}</Row>
+          <Row label="role">{role}</Row>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const SecondPage = () => {
+  return (
   <Layout>
     <SEO title="Projects" />
     <h1>Recent Projects*</h1>
     <p><i>*and favorites ones, too.</i></p>
-      <div className="entry">
-        <div className="job">
-          <h3>Belmont Country Club</h3>
-          <div className="indent">
-            <p><span className="title_attr">url</span> <a href="https://www.belmontcc.org/" target="_blank" rel="noopener noreferrer"> https://www.belmontcc.org/</a></p>
-            <p><span className="title_attr">project date</span> Apr 2020</p>
-            <p><span className="title_attr">role</span> lead developer</p>
-          </div>
-        </div>
-      </div>
 
-    <div className="entry">
-      <div className="job">
-        <h3>The Quarry Golf Club</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.quarrygolfnaples.com/" target="_blank" rel="noopener noreferrer"> https://www.quarrygolfnaples.com/</a></p>
-          <p><span className="title_attr">project date</span> Feb 2020</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>San Jose Country Club</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.sjccjax.com/" target="_blank" rel="noopener noreferrer"> https://www.sjccjax.com/</a></p>
-          <p><span className="title_attr">project date</span> Feb 2020</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Bear Lakes Country Club</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.bearlakes.org/" target="_blank" rel="noopener noreferrer"> https://www.bearlakes.org/</a></p>
-          <p><span className="title_attr">project date</span> Jan 2020</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Stonebridge Country Club</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.stonebridgecountryclub.com/" target="_blank" rel="noopener noreferrer"> https://www.stonebridgecountryclub.com/</a></p>
-          <p><span className="title_attr">project date</span> Dec 2019</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Ocean Village</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.oceanvillage.com/" target="_blank" rel="noopener noreferrer"> https://www.oceanvillage.com/</a></p>
-          <p><span className="title_attr">project date</span> Nov 2019</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Waverly Country Club</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.waverley.cc/" target="_blank" rel="noopener noreferrer"> https://www.waverley.cc/</a></p>
-          <p><span className="title_attr">project date</span> Sept 2019</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Addison Reserve</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.addisonreserve.cc/" target="_blank" rel="noopener noreferrer"> https://www.addisonreserve.cc/</a></p>
-          <p><span className="title_attr">project date</span> Sept 2018</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Club at Ibis</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.clubatibis.com/" target="_blank" rel="noopener noreferrer"> https://www.clubatibis.com/</a></p>
-          <p><span className="title_attr">project date</span> Jan 2018</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Silverleaf Club</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.silverleafclub.com/" target="_blank" rel="noopener noreferrer"> https://www.silverleafclub.com/</a></p>
-          <p><span className="title_attr">project date</span> October 2017</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="entry">
-      <div className="job">
-        <h3>Manchester Country Club</h3>
-        <div className="indent">
-          <p><span className="title_attr">url</span> <a href="https://www.manchestercountryclub.com/" target="_blank" rel="noopener noreferrer"> https://www.manchestercountryclub.com/</a></p>
-          <p><span className="title_attr">project date</span> June 2017</p>
-          <p><span className="title_attr">role</span> lead developer</p>
-        </div>
-      </div>
-    </div>
+    {entries.map(({ name, href, projectDate, role }) => <Entry name={name} href={href} projectDate={projectDate} role={role}></Entry> )}
 
     <Link to="/" className="home-link">Home</Link>
   </Layout>
-)
+)}
 
 export default SecondPage
